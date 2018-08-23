@@ -1,22 +1,9 @@
-
-<!DOCTYPE html>
-<html>
-<body>
-
-
-<p id="demo"></p>
-
-<script>
-var myObj, myJSON, text, obj;
-//Storing data:
-myObj = { name: "Visit www.cranfieldandmarstonvale.co.uk for more informtion on these and other news headlines", age: 31, city: "New York" };
-myJSON = JSON.stringify(myObj);
-localStorage.setItem("testJSON", myJSON);
-//Retrieving data:
-text = localStorage.getItem("testJSON");
-obj = JSON.parse(text);
-document.getElementById("demo").innerHTML = obj.name;
-</script>
-
-</body>
-</html>
+Content-Type: application/json
+...
+{
+  "uid": "urn:uuid:1335c695-cfb8-4ebb-abbd-80da344efa6b",
+  "updateDate": "2016-05-23T00:00:00.0Z",
+  "titleText": "Amazon Developer Blog, week in review May 23rd",
+  "mainText": "Meet Echosim. A new online community tool for developers that simulates the look and feel of an Amazon Echo.",
+  "redirectionUrl": "https://developer.amazon.com/public/community/blog"
+}
