@@ -1,9 +1,0 @@
-Content-Type: application/json
-...
-{
-  "uid": "urn:uuid:1335c695-cfb8-4ebb-abbd-80da344efa6b",
-  "updateDate": "2016-05-23T00:00:00.0Z",
-  "titleText": "",
-  "mainText": "For more information of these headlines, and other local news, visit www.cranfieldandmarstonvale.co.uk",
-  "redirectionUrl": "https://cranfieldandmarstonvale.co.uk"
-}
