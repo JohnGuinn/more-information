@@ -6,7 +6,6 @@ Content-Type: application/rss+xml
   <channel>
     <ttl>30</ttl>
     <item>
-      <guid>urn:uuid:42667ad2-0ffd-4f04-973f-732564622d7e</guid>
       <title>Visit cranfieldandmarstonvale.co.uk for more information on these headlines</title>
       <link>https://crafieldandmarstonvale.co.uk</link>
       <pubDate>2016-05-23T00:00:00.0Z</pubDate>
